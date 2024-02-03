@@ -1,0 +1,16 @@
+qrcode
+protobuf>=3.20,<4
+qdarkstyle>=2.7
+aiorpcx>=0.22.0,<0.23
+aiohttp>=3.3.0,<4.0.0
+aiohttp_socks>=0.3
+certifi
+bitstring
+attrs>=20.1.0
+
+# Note that we also need the dnspython[DNSSEC] extra which pulls in cryptography,
+# but as that is not pure-python it cannot be listed in this file!
+dnspython>=2.0
+
+x16r_hash @ git+https://github.com/brian112358/x16r_hash@d79211ee8b5d86a9709caefded79f318a1d9f3a8
+kawpow==0.9.4.4

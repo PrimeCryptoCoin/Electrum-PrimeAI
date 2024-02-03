@@ -1,0 +1,23 @@
+# If you want Electrum to appear in a Linux app launcher ("start menu"), install this by doing:
+# sudo desktop-file-install electrum-primeai.desktop
+# Note: This assumes $HOME/.local/bin is in your $PATH
+
+[Desktop Entry]
+Comment=Lightweight PrimeAI Client
+Exec=electrum_primeai %u
+GenericName[en_US]=PrimeAI Wallet
+GenericName=PrimeAI Wallet
+Icon=electrum
+Name[en_US]=Electrum PrimeAI Wallet
+Name=Electrum PrimeAI Wallet
+Categories=Finance;Network;
+StartupNotify=true
+StartupWMClass=electrum_primeai
+Terminal=false
+Type=Application
+MimeType=x-scheme-handler/primeai
+Actions=Testnet;
+
+[Desktop Action Testnet]
+Exec=electrum_primeai --testnet %u
+Name=Testnet mode

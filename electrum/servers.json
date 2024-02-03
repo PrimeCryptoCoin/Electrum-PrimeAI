@@ -1,0 +1,39 @@
+{
+  "electrumx1.primeai.org": {
+    "pruning": "-",
+    "s": "19012",
+    "t": "19011",
+    "version": "1.0"
+  },
+  "electrumx2.primeai.org": {
+    "pruning": "-",
+    "s": "19012",
+    "t": "19011",
+    "version": "1.0"
+  },
+  "electrumx3.primeai.org": {
+    "pruning": "-",
+    "s": "19012",
+    "t": "19011",
+    "version": "1.0"
+  },
+  "electrumx4.primeai.org": {
+    "pruning": "-",
+    "s": "19012",
+    "t": "19011",
+    "version": "1.0"
+  },
+  "electrumx.primeaiexplorer.com": {
+    "pruning": "-",
+    "s": "19012",
+    "t": "19011",
+    "version": "1.0"
+  },
+  "electrumx2.primeaiexplorer.com": {
+    "pruning": "-",
+    "s": "19012",
+    "t": "19011",
+    "version": "1.0"
+  }
+
+}

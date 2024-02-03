@@ -1,0 +1,8 @@
+{
+    "electrumx-testnet.primeai.org": {
+        "pruning": "-",
+        "s": "19112",
+        "t": "19111",
+        "version": "1.0"
+    }
+}
